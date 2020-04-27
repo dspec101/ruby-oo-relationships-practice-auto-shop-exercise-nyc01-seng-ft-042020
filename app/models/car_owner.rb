@@ -23,7 +23,7 @@ class CarOwner
   car.mechanic 
   end
 
-  def average_number_of_cars
+  def self.average_number_of_cars
   all_cars = Car.all
   all_owners = CarOwner.all
   all_cars / all_owners 
